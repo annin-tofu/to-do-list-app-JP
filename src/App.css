@@ -65,6 +65,8 @@ h1 {
   border-radius: 0 4px 4px 0;
   cursor: pointer;
   outline: none;
+
+  /* gradient color is enabled for fancier appearance */
   background: linear-gradient(
     90deg,
     rgba(93, 12, 255, 1) 0%,
