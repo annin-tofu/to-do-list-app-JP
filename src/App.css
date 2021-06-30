@@ -24,7 +24,14 @@
   min-height: 600px;
   background: #161a2b;
   text-align: center;
+  /* Next line was previously set to 
+
   margin: 128px auto;
+
+   removed due to responsiveness
+   
+   */
+  margin: auto;
   border-radius: 10px;
   padding-bottom: 32px;
 }
