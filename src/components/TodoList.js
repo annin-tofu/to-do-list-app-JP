@@ -22,7 +22,7 @@ function TodoList() {
     if (!newValue.text || /^\s*$/.test(newValue.text)) {
       return;
     }
-    // ternary function i.e. ? !
+    // ternary function e.g. ? !
     setTodos((prev) =>
       prev.map((item) => (item.id === todoId ? newValue : item))
     );
@@ -49,7 +49,7 @@ function TodoList() {
 
   return (
     <div>
-      <h1>Whats the plan for today?</h1>
+      <h1>今日の用事は何ですか?</h1>
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}

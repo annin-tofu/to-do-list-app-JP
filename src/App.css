@@ -22,10 +22,11 @@
   justify-content: start;
   /* Next line was previously set to 
 
-  margin: 128px auto;
+  margin: 520 px;
 
-   removed due to responsiveness.
-   changed to auto
+   removed due to responsiveness
+
+   now "auto"
    
    */
   width: auto;
@@ -37,7 +38,8 @@
   margin: 128px auto;
 
    removed due to responsiveness
-   changed to auto
+   now "auto"
+   
    */
   margin: auto;
   border-radius: 10px;

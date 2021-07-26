@@ -36,7 +36,7 @@ function TodoForm(props) {
         // note   fragments are <> and </>
         <>
           <input
-            placeholder="Update your todo"
+            placeholder="用事を入力してください"
             value={input}
             name="text"
             className="todo-input edit"
@@ -44,13 +44,13 @@ function TodoForm(props) {
             ref={inputRef}
           />
           <button onClick={handleSubmit} className="todo-button edit">
-            Update
+            編集
           </button>
         </>
       ) : (
         <>
           <input
-            placeholder="Add a todo"
+            placeholder="用事を入力してください"
             value={input}
             name="text"
             className="todo-input"
@@ -58,7 +58,7 @@ function TodoForm(props) {
             ref={inputRef}
           />
           <button onClick={handleSubmit} className="todo-button">
-            Add todo
+            追加
           </button>
         </>
       )}
@@ -66,4 +66,4 @@ function TodoForm(props) {
   );
 }
 
-export default TodoForm
+export default TodoForm;
